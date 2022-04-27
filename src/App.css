@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  background-color: #343741;
+  display: flex;
+  justify-content: end;
+  padding: 0 1rem;
+}
+
+button{
+  background-color: #772277;
+  color: #ededed;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem
+}
+
+
+section{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+form{
+  background-color: #34374199;
+  color: #ededed;
+  font-size: large;
+  width: 12rem;
+  padding: 1rem;
+  border: solid #ccc;
+  border-radius: 1rem;
+}
+
+input{
+  width: 10rem;
+  height: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0rem 1.5rem 0rem;
+  border-radius: 1rem;
+}
+
+input:focus{
+  outline: solid #b91cb9 2px;
+}
+
+button{
+  border-radius: 0.3rem;
+}
+
+article{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5rem 0;
+}
+
+.membership{
+  width: 15rem;
+  padding: 2rem;
+  border: solid;
+  margin: 4rem 0;
+}
+
+h2{
+  width: 80%;
+}
